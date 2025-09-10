@@ -110,7 +110,18 @@
   padding: 1rem;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   height:355px;
+  
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
 }
+
+.service-card:hover {
+  
+  transform: translateY(-5px) scale(1.03); 
+  
+  
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+}
+
 
 .service-icon-container {
   margin-bottom: 1.75rem;
