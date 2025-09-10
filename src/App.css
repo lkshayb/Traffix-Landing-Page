@@ -1,0 +1,69 @@
+:root {
+  --background-white: #ffffff;
+  --background-light-gray: #f7f7f7;
+  --text-dark: #121212;
+  --text-medium: #555555;
+  --text-light: #888888;
+  --accent-green: #00c881;
+  --accent-green-darker: #00b373;
+  --border-color: #eaeaea;
+  --font-main: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
+  --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --shadow-medium: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.background-image {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.bg-image {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  object-fit: cover;
+  z-index: 0;           
+  pointer-events: none;
+  filter: brightness(0.3);
+}
+
+
+
+.bg-image::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  z-index: -1;
+}
+
+
+.background-image > div {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+.content-overlay {
+  position: relative;
+  z-index: 3;
+}
+
+h1{
+  color: white;
+}
