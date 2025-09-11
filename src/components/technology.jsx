@@ -44,7 +44,7 @@ const technology = () => {
         <div className="section-header">
           {/* <h2 className="section-title">Underlying Technology</h2> */}
           <p className="section-subtitle">
-            Cutting-edge AI and IoT technologies powering intelligent traffic management
+            Cutting-edge AI and IoT Technologies Powering Intelligent Traffic Management
           </p>
         </div>
         
