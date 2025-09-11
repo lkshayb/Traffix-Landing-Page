@@ -17,7 +17,7 @@ const Navbar = (() => {
                 </nav>
                 
                     <button className="nav-button">
-                        <span>Show Demo</span>
+                        <span>Login To Dashboard</span>
                     </button>
             </div>
         </header>

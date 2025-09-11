@@ -16,6 +16,8 @@
     top: 0;
     z-index: 1000;
     transition: box-shadow 0.2s ease-in-out;
+    -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
 }
 
 
@@ -55,6 +57,7 @@ nav a {
     display: flex;
     justify-content: center;
     gap: 2rem;
+    
 
 }
 

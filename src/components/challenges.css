@@ -46,6 +46,10 @@
 .services-header {
   text-align: center;
   margin-bottom: 4rem;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .services-label {

@@ -14,7 +14,7 @@
 
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
   
@@ -47,4 +47,18 @@
 }
 .hero{
   margin-top: 5.5rem;
+}
+.hero-headline{
+  font-family: "Oswald", sans-serif;
+  font-size: 4.5rem;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  
+}
+.subtitle{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
