@@ -1,41 +1,12 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 Intelligent Traffic Management System
-!(https://www.google.com/search?q=https://placehold.co/800x400/2d3748/ffffff%3Ftext%3DTraffic%2BManagement%2BSystem)
 
 An advanced traffic management system using YOLOv8, OpenCV, and Scikit-learn to analyze traffic flow, detect congestion, and provide real-time insights.
-
-📋 Table of Contents
-Project Overview
-
-Key Features
-
-System Architecture
-
-Tech Stack
-
-Installation
-
-Usage
-
-Contributing
-
-License
 
 🌟 Project Overview
 This project offers a smart solution for urban traffic control. It processes video feeds to detect, track, and classify vehicles, using the collected data to calculate traffic density and speed. This enables more efficient traffic management, congestion prediction, and dynamic signal control.
 
-✨ Key Features
+<b>✨ Key Features-></b>
+
 Real-time Vehicle Detection: High-accuracy vehicle detection and classification using YOLOv8.
 
 Vehicle Counting: Accurately counts vehicles passing through specified zones.
@@ -75,3 +46,37 @@ Machine Learning: Scikit-learn
 Numerical Operations: NumPy
 
 Data Handling: Pandas
+
+🛠️ Installation
+1. Clone the repository:
+   git clone https://github.com/lkshayb/Traffix-Landing-Page
+   cd Traffix-Landing-Page
+
+2. Install dependencies:
+   npm install
+
+3. Run the development server:
+   npm start
+
+🚀 Usage
+  Open "http://localhost:3000" in your browser to see the app.
+  
+  Edit the code in /src/components/ to customize sections like Navbar, Challenges, and Technology.
+  
+  Deploy easily with "Vercel" or any static hosting provider.
+
+🤝 Contributing
+  
+  1. Fork the project
+  
+  2. Create your feature branch (git checkout -b feature/new-feature)
+  
+  3. Commit your changes (git commit -m 'Add some feature')
+  
+  4. Push to the branch (git push origin feature/new-feature)
+  
+  5. Open a Pull Request
+
+<img width="1918" height="916" alt="image" src="https://github.com/user-attachments/assets/9e5f2e96-575d-42d6-a3c6-2eefd3107377" />
+<img width="1918" height="908" alt="image" src="https://github.com/user-attachments/assets/564534c2-5a23-4885-a3ce-6b80c4fa3f72" />
+
