@@ -15,9 +15,8 @@ const Navbar = (() => {
                     <a href="#challenges" >Challenges</a>
                     <a href="#tech" >Technology</a>
                 </nav>
-                
                     <button className="nav-button">
-                        <span>Login To Dashboard</span>
+                        <a href="https://traffi-x.vercel.app/" target="hidden" style={{"textDecoration":"none","color":"black"}}>Login To Dashboard</a>
                     </button>
             </div>
         </header>

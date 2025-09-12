@@ -17,6 +17,11 @@ html {
   scroll-behavior: smooth;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
+
 .background-image {
   position: relative;
   width: 100vw;
