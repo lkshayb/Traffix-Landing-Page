@@ -23,7 +23,7 @@ const footer = () => {
             <ul>
               <li><a href="#">CCTV Integration</a></li>
               <li><a href="#">AI Engine</a></li>
-              <li><a href="#">Dashboard</a></li>
+              <li><a href="https://traffi-x.vercel.app/" target="hidden" >Dashboard</a></li>
               <li><a href="#">Analytics</a></li>
             </ul>
           </div>
