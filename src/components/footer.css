@@ -16,6 +16,7 @@
   font-family: var(--font-sans);
   color: var(--color-foreground);
   flex-grow: 1;
+  overscroll-behavior: none;
 }
 
 .footer-container {
