@@ -24,6 +24,8 @@
   margin-left: auto;
   margin-right: auto;
   padding: 1rem 1rem;
+  overscroll-behavior: none;
+  
 }
 
 .footer-grid {

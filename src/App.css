@@ -11,6 +11,7 @@
     sans-serif;
   --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.05);
   --shadow-medium: 0 6px 20px rgba(0, 0, 0, 0.08);
+  overscroll-behavior: none;
 }
 
 html {
