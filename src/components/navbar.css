@@ -69,6 +69,9 @@ nav a {
   justify-content: center;
   transition: background-color 0.3s ease;
 }
+.nav-button:hover {
+  background-color: #ffc107;
+}
 
 #product {
   scroll-margin-top: 135px;
